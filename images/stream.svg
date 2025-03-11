@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 419.74 375.32">
+  <defs>
+    <style>
+      .f {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <polygon class="f" points="37.53 93.44 202.91 31.54 202.91 150.59 37.53 229.16 37.53 93.44"/>
+  <polyline class="f" points="392.36 211.63 392.36 241.51 252.45 351.45 252.45 315.14 392.36 211.63 262.45 211.63 144.19 280.52 144.19 302.27 252.45 351.45"/>
+  <line class="f" x1="252.45" y1="315.14" x2="144.19" y2="280.52"/>
+  <polyline class="f" points="252.45 297.83 252.45 274.09 285.13 251.2 285.13 271.64"/>
+  <polyline class="f" points="314.23 259.04 314.23 243.64 344.87 217.92 344.87 237.73"/>
+  <polyline class="f" points="224.85 273.34 224.85 254.43 194.91 275.26 194.91 289.18"/>
+  <polyline class="f" points="254.23 246.07 254.23 234.73 274.15 219.87 274.15 233.57"/>
+</svg>

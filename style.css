@@ -25,3 +25,46 @@ a{
 body{
     margin: auto;
 }
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        "s f . a"
+        "s b c .";
+}
+
+.subtitle{
+    color: #434343;
+}
+
+#stream{
+    grid-area: s;
+}
+
+#bracket{
+    grid-area: b;
+}
+
+#friendlies{
+    grid-area: f;
+}
+
+#artists{
+    grid-area: a;
+    max-width: 10rem;
+}
+
+#conversation{
+    grid-area: c;
+}
+
+a img{
+    transition: all 0.2s ease;
+}
+
+a img:hover{
+    border: solid salmon;
+    transition: all 0.2s;
+}

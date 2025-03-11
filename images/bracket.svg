@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354.79 173.4">
+  <defs>
+    <style>
+      .f, .g {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .g {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="a" data-name="Layer 1">
+    <polygon class="f" points="54.65 64.25 296.32 64.25 320.13 96.44 33.94 96.44 54.65 64.25"/>
+  </g>
+  <g id="b" data-name="Layer 2">
+    <rect class="f" x="90.36" y="28.54" width="38.1" height="26.19"/>
+    <line class="g" x1="109.41" y1="41.63" x2="109.41" y2="71.4"/>
+    <line class="g" x1="91.36" y1="71.4" x2="126.32" y2="71.4"/>
+    <rect class="f" x="231.34" y="28.54" width="38.1" height="26.19"/>
+    <line class="g" x1="250.39" y1="41.63" x2="250.39" y2="71.4"/>
+    <line class="g" x1="232.34" y1="71.4" x2="267.29" y2="71.4"/>
+    <line class="g" x1="181.03" y1="55.06" x2="181.03" y2="84.82"/>
+    <rect class="f" x="161.98" y="41.97" width="38.1" height="26.19"/>
+    <line class="g" x1="162.98" y1="84.82" x2="197.94" y2="84.82"/>
+    <line class="f" x1="76.08" y1="96.44" x2="76.08" y2="126.16"/>
+    <line class="f" x1="273.13" y1="96.44" x2="273.13" y2="126.16"/>
+  </g>
+  <g id="c" data-name="Layer 3">
+    <line class="f" x1="122.74" y1="132.43" x2="122.74" y2="157.99"/>
+    <line class="f" x1="155.04" y1="132.61" x2="155.04" y2="158.18"/>
+    <line class="f" x1="167.79" y1="116.82" x2="167.79" y2="141.45"/>
+    <line class="f" x1="138.19" y1="117.21" x2="138.19" y2="141.45"/>
+    <polyline class="f" points="155.04 132.43 167.79 117.11 155.04 117.11"/>
+    <polygon class="f" points="120.32 91.62 155.04 91.62 155.04 132.43 122.74 132.43 120.32 91.62"/>
+    <line class="f" x1="241.97" y1="132.29" x2="241.97" y2="157.86"/>
+    <line class="f" x1="209.67" y1="132.48" x2="209.67" y2="158.04"/>
+    <line class="f" x1="196.91" y1="116.69" x2="196.91" y2="141.32"/>
+    <line class="f" x1="226.52" y1="117.08" x2="226.52" y2="141.32"/>
+    <polyline class="f" points="209.67 132.29 196.91 116.98 209.67 116.98"/>
+    <polygon class="f" points="244.39 91.49 209.67 91.49 209.67 132.29 241.97 132.29 244.39 91.49"/>
+  </g>
+</svg>

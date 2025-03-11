@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215.94 156.77">
+  <defs>
+    <style>
+      .f {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <polygon class="f" points="144.99 62.59 177.22 62.59 179.76 134.5 162.37 87.32 144.99 134.5 144.24 82.02 116.4 52.16 144.99 62.59"/>
+  <polygon class="f" points="147.71 49.05 140.17 30.97 157.15 30.97 161.71 44.62 147.71 49.05"/>
+  <polygon class="f" points="38.32 56.63 73.11 56.63 90.97 88.21 73.11 79.84 73.11 139.57 55.72 98.1 38.32 139.57 38.32 56.63"/>
+  <polygon class="f" points="44.03 35.57 55.72 22.26 64.57 35.57 55.72 46.04 44.03 35.57"/>
+</svg>
