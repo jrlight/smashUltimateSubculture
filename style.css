@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 ul{
@@ -24,40 +25,93 @@ a{
 
 body{
     margin: auto;
+    
 }
 
-main{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 
-        "s f . a"
-        "s b c .";
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+h1{
+    font-family: "Russo One", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2{
+    font-family: "Russo One", sans-serif;
+    font-size: 1.5rem;
+    /* margin-bottom: 0.5rem; */
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+p:last-of-type{
+    margin-bottom: 0;
+}
+
+a{
+    color: #096dab;
+    transition: all 0.2s ease;
+}
+
+a:hover{
+    border-bottom: 2px solid #096dab;
 }
 
 .subtitle{
     color: #434343;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    /* margin-bottom: ; */
+}
+
+main.home{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr, 1fr, 1fr;
+    grid-template-areas: 
+        "s i a"
+        "s b a"   
+        "s f c";
+}
+
+#info{
+    grid-area: i;
+    justify-self: center;
+    /* align-self: center; */
 }
 
 #stream{
     grid-area: s;
+    /* min-width: 26rem; */
+    align-self: first baseline;
 }
 
 #bracket{
     grid-area: b;
+    align-self: last baseline;
 }
 
 #friendlies{
     grid-area: f;
+    align-self: last baseline;
 }
 
 #artists{
     grid-area: a;
-    max-width: 10rem;
+    max-width: 14rem;
 }
 
 #conversation{
     grid-area: c;
+    max-width: 20rem;
+    align-self: baseline;
 }
 
 a img{
@@ -67,4 +121,45 @@ a img{
 a img:hover{
     border: solid salmon;
     transition: all 0.2s;
+}
+
+main.page{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+section.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSet{
+    background-color: #ff1c1cd3;
+    border-radius: 0.5rem;
+    max-width: 50%;
+    padding: 1em;
+}
+
+.imgSet img{
+    margin-bottom: 1em;
+}
+
+.imgSet img:last-of-type{
+    margin-bottom: 0;
+}
+
+.explanation{
+    padding: 2em;
+    background-color: #d0d0d0d3;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+@media screen and (min-width:700px){
+    body.page{
+        width: 80%;
+        margin: auto;
+    }
+
 }
